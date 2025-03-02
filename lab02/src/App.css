@@ -1,0 +1,224 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #fff;
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.logo img {
+    width: 150px;
+    height: 40px;
+    margin-right: 10px;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #f9f9f9;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 20px;
+    width: 200px;
+    background: transparent;
+}
+
+.search-bar button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.nav-links {
+    display: flex;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.nav-links a:hover {
+    color: #ff4081;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.recipe-box {
+    background-color: #ff4081;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.recipe-box:hover {
+    background-color: #e73370;
+}
+
+.user-profile img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.container{
+  display: flex;
+  padding: 20px;
+}
+.sidebar{
+  width: 250px;
+  padding: 20px;
+  background-color: #fafafa;
+  border-right: 1px solid #ff4081;
+}
+
+.sidebar h3{
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: black;
+}
+.filter-section {
+    margin-bottom: 15px;  
+    color: black;
+}
+.filter-section h4 {
+    margin-bottom: 15px;
+}
+
+.filter-section label{
+  display: block;
+  margin: 5px;
+}
+
+.apply-btn {
+    background: #ff4081;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.apply-btn:hover {
+    background: #e73370;
+}
+.results {
+    flex-grow: 1;
+    padding: 40px;
+    text-align: center;
+}
+.results h2 {
+    font-size: 24px;
+    color: #333;
+}
+.not-found {
+    margin-top: 20px;
+}
+
+.not-found img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.not-found p {
+    color: #666;
+}
+
+.suggestions {
+    margin-top: 10px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #444;
+    cursor: pointer;
+}
+
+.tag:hover {
+    background: #ff4081;
+    color: white;
+}
+
+.img111{
+  width: 150px;
+}

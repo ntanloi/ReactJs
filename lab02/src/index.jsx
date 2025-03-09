@@ -5,6 +5,8 @@ import rating1 from '../src/img/rating_1.png';
 import rating2 from '../src/img/rating_2.png';
 import slider from '../src/img/slider.png'
 import nothingFound from '../src/img/nothing.png';
+import rating3 from '../src/img/rating_3.png'
+import rating4 from '../src/img/rating_4.png'
 
 export default function Home() {
   return (
@@ -53,10 +55,10 @@ export default function Home() {
 
           <div className="filter-section">
             <h4>Rating</h4>
-            <label><input type="radio" name="rating" /><img src={rating1} alt="Rating 1" /></label>
-            <label><input type="radio" name="rating" /> <img src={rating2} alt="" /></label>
-            <label><input type="radio" name="rating" checked /></label>
-            <label><input type="radio" name="rating" /></label>
+            <label><input type="checkbox" name="rating" /><img src={rating1} alt="Rating 1" /></label>
+            <label><input type="checkbox" name="rating" /> <img src={rating2} alt="" /></label>
+            <label><input type="checkbox" name="rating" checked /><img src={rating3} alt="" /></label>
+            <label><input type="checkbox" name="rating" /><img src={rating4} alt="" /></label>
           </div>
 
           <button className="apply-btn">Apply</button>
